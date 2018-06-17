@@ -7,16 +7,4 @@
   <version>x.x-SNAPSHOT</version>
   <name>SimpleCustomerApp</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
-      <repository>
-         <id>nexus</id>
-         <name>Release repository</name>
-         <url>http://10.10.1.10:8081/repository/simpletest/</url>
-      </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Release repository</name>
-      <url>http://10.10.1.10:8081/repository/simpletest/</url>
-    </snapshotRepository>
-   </distributionManagement>
 </project>
